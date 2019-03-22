@@ -11,7 +11,7 @@
     "material"
   ],
   "homepage": "https://github.com/Scheinin/angularjs-material-passwd-visible",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
