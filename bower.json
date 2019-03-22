@@ -1,0 +1,30 @@
+{
+  "name": "angularjs-material-passwd-visible",
+  "description": "angularjs material password visibility",
+  "main": "index.js",
+  "authors": [
+    "Scheinin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "material"
+  ],
+  "homepage": "https://github.com/Scheinin/angularjs-material-passwd-visible",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-material": "^1.1.14",
+    "material-design-icons": "^3.0.1"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css">
+
+    <link rel="stylesheet/less" href="../src/angularjs-material-passwd-visible.less">
+</head>
+<body ng-app="myApp">
+
+<md-content ng-controller="AppCtrl">
+    <form>
+        <md-input-container>
+            <label>Password</label>
+            <input ng-model="user.passwd" type="password" passwd-visible>
+        </md-input-container>
+    </form>
+</md-content>
+
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="../bower_components/angular-messages/angular-messages.min.js"></script>
+<script src="../bower_components/angular-material/angular-material.min.js"></script>
+<script src="../bower_components/less/dist/less.min.js"></script>
+
+<script src="../src/angularjs-material-passwd-visible.js"></script>
+
+<script src="./demo.js"></script>
+</body>
+</html>
